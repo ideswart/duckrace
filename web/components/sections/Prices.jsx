@@ -84,7 +84,7 @@ function PriceGrid() {
 
 export default function Prices() {
   return (
-    <div className="bg-amber-100 h-full w-screen pb-60 md:pb-0">
+    <div className="bg-orange-100 h-full w-screen pb-60 md:pb-0">
       <div className="container mx-auto max-w-7xl px-4 mt-2 md:md-0">
         <div className="flex flex-col items-center justify-center gap-4">
           <h2 className="uppercase text-2xl md:text-3xl font-bold text-center mt-12">

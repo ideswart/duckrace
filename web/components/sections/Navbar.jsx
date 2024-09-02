@@ -17,7 +17,7 @@ export default function Navbar() {
               }}
             />
             <div className="uppercase flex flex-col text-xl font-bold tracking-tight leading-4 text-white/90">
-              Eendenrace<span>Leiden 2024</span>
+              Eendenrace<span>Leiden 2025</span>
             </div>
           </div>
           <div className="flex flex-row gap-4">{/* Optional links here */}</div>

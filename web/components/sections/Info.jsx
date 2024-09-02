@@ -2,7 +2,7 @@ import LinkButton from "../elements/LinkButton";
 
 const info = {
   title: "Adopteer je eenden",
-  par1: "Kom op zaterdag 19 april 2025 naar het Rapenburg in Leiden en geniet van de eerste editie van de RT150 EENDENRACE. Er is muziek, entertainment voor de kinderen en de voldoende horeca om van te genieten tijdens de race.",
+  par1: "Kom op zaterdag 19 april 2025 naar het Rapenburg in Leiden en geniet van de eerste editie van de RT150 EENDENRACE. Er is muziek, entertainment voor de kinderen en voldoende horeca om van te genieten tijdens de race.",
   par2: "Adopteer jouw eenden en steun ons goede doel én maak kans op	schitterende prijzen.",
   par3: "Een eend adopteren kan al vanaf € 10.",
 };

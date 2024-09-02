@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import Info from "@/components/sections/Info";
 import Prices from "@/components/sections/Prices";
 import TariffTable from "@/components/sections/TariffTable";
+import Timeline from "@/components/sections/Timeline";
 import { classNames } from "@/helpers/classNames";
 
 const sections = [
@@ -19,6 +20,9 @@ const sections = [
   {
     component: <Prices />,
     overrideClass: "h-auto sm:h-screen overflow-y-auto",
+  },
+  {
+    component: <Timeline />,
   },
 ];
 
