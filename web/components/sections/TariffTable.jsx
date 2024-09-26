@@ -7,8 +7,11 @@ const categories = ["Voor Leidenaren", "Voor bedrijven"];
 
 export default function TariffTable() {
   return (
-    <div id="tariffTable" className="bg-gray-950 w-full h-full pb-80 md:pb-20 lg:pb-0">
-      <div className="mx-auto container max-w-7xl mt-8 md:md-0 py-8 px-4 sm:px-0 md:py-16">
+    <div
+      id="tariffTable"
+      className="bg-gray-950 w-full h-full overflow-y-auto pb-80 md:pb-20 lg:pb-0"
+    >
+      <div className="container mx-auto max-w-7xl mt-8 md:mt-0 py-8 px-4 sm:px-4 md:px-8 lg:px-0 md:py-16">
         <div className="flex flex-col gap-3">
           <h2 className="uppercase text-2xl md:text-3xl font-bold text-center text-gray-200 flex flex-col sm:flex-row justify-center gap-1">
             Met welke eenden<span className="ml-1">ga jij winnen?</span>

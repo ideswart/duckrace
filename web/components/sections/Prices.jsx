@@ -60,8 +60,12 @@ function Price(props) {
             <img className="content-fit rounded-md" src={image} alt="" />
           </div>
           <div className="flex flex-col w-2/3 gap-2">
-            <div className="font-bold uppercase text-gray-100">{props.data.title}</div>
-            <div className="text-xs text-gray-100">{props.data.description}</div>
+            <div className="font-bold uppercase text-gray-100">
+              {props.data.title}
+            </div>
+            <div className="text-xs text-gray-100">
+              {props.data.description}
+            </div>
             <div className="text-xs text-gray-100">
               {props.data.quantity}x à {props.data.value}
             </div>
@@ -84,8 +88,8 @@ function PriceGrid() {
 
 export default function Prices() {
   return (
-    <div className="bg-orange-100 h-full w-screen pb-60 md:pb-0">
-      <div className="container mx-auto max-w-7xl px-4 mt-2 md:md-0">
+    <div className="bg-orange-100 h-full w-full overflow-y-auto pb-60 md:pb-0">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-4 md:px-8 lg:px-0 mt-2">
         <div className="flex flex-col items-center justify-center gap-4">
           <h2 className="uppercase text-2xl md:text-3xl font-bold text-center mt-12">
             Prijzen
@@ -98,9 +102,6 @@ export default function Prices() {
           <PriceGrid />
         </div>
       </div>
-      {/* <div className="mx-auto container max-w-7xl px-4 sm:px-0">
-        
-      </div> */}
     </div>
   );
 }

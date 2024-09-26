@@ -11,15 +11,12 @@ const sections = [
   { component: <Info /> },
   {
     component: <Charity />,
-    overrideClass: "h-auto sm:h-screen overflow-y-auto",
   },
   {
     component: <TariffTable />,
-    overrideClass: "h-auto sm:h-screen overflow-y-auto",
   },
   {
     component: <Prices />,
-    overrideClass: "h-auto sm:h-screen overflow-y-auto",
   },
   {
     component: <Timeline />,
@@ -28,20 +25,18 @@ const sections = [
 
 export default function Home() {
   return (
-    <>
-      <div className="snap-y snap-mandatory h-screen overflow-y-scroll">
-        {sections.map((section, index) => (
-          <section
-            key={index}
-            className={classNames(
-              "h-screen snap-start flex items-center justify-center",
-              section.overrideClass
-            )}
-          >
-            {section.component}
-          </section>
-        ))}
-      </div>
-    </>
+    <div>
+      {sections.map((section, index) => (
+        <section
+          key={index}
+          className={classNames(
+            "flex items-center justify-center",
+            section.overrideClass
+          )}
+        >
+          {section.component}
+        </section>
+      ))}
+    </div>
   );
 }
