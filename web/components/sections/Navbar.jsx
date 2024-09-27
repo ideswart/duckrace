@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar() {
   return (
-    <header className="bg-slate-950">
+    <header className="bg-slate-950 fixed top-0 w-full z-10">
       <div className="max-w-7xl container mx-auto">
         <div className="flex flex-row justify-between py-4 md:py-6 lg:py-8 px-4 text-gray-100 items-center">
           <div className="flex flex-row gap-4 items-center">

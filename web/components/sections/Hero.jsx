@@ -32,7 +32,7 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <LinkButton href="#tariffTable" label="Adopteer je eenden" />
               <a
-                href="#"
+                href="#timeline"
                 className="text-sm font-semibold leading-6 text-white"
               >
                 Het programma <span aria-hidden="true">→</span>

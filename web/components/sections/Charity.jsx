@@ -8,8 +8,8 @@ const charity = {
 
 export default function Charity() {
   return (
-    <div className="bg-orange-100 w-full h-full flex items-center pb-20 md:pb-0">
-      <div className="container max-w-7xl mx-auto mb-20 px-4">
+    <div className="bg-orange-100 w-full h-full flex items-center">
+      <div className="container max-w-7xl mx-auto my-20 px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 p-4 md:p-8 lg:p-12">
           <div className="w-full md:w-1/2 place-items-center justify-center">
             <img
