@@ -1,5 +1,5 @@
-import Footer from "@/components/sections/Footer";
 import Navbar from "@/components/sections/Navbar";
+import Footer from "@/components/sections/Footer";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import "./globals.css";
@@ -12,7 +12,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Eendenrace Leiden 2025",
-  description: "Eendenrace Leiden 2025",
+  description:
+    "Kom op 19 april naar de Eendenrace in Leiden en steun het goede doel!",
 };
 
 export default function RootLayout({ children }) {
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         <main className={inter.className}>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

@@ -51,9 +51,9 @@ function Activities() {
 
 export default function Timeline() {
   return (
-    <div className="bg-gray-950 w-full h-full">
+    <div id="timeline" className="bg-gray-950 w-full h-full">
       <div className="flex items-center justify-center">
-        <div className="container max-w-xl px-4 md:px-4 py-24 md:py-48">
+        <div className="container max-w-xl px-4 md:px-4 py-24 md:py-64">
           <div className="flex flex-col items-center gap-8">
             <h2 className="uppercase text-2xl md:text-3xl font-bold text-center text-gray-200 flex flex-col sm:flex-row justify-center gap-1">
               Programma en locatie
