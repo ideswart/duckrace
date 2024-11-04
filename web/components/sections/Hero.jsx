@@ -4,7 +4,7 @@ import LinkButton from "../elements/LinkButton";
 const data = {
   title: "Eendenrace Leiden",
   description:
-    "Op zaterdag 19 april 2025 vindt de eerste editie van de RT150 EENDENRACE plaats op het Rapenburg in Leiden.",
+    "Op zaterdag 19 april 2025 vindt op het Rapenburg de eerste editie van de EENDENRACE Leiden plaats.",
   date: "19 april 2025",
 };
 
@@ -20,7 +20,7 @@ export default function Hero() {
         />
         <div className="mx-auto container max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <div className="font-bold uppercase text-yellow-400">
+            <div className="font-bold uppercase text-yellow-300">
               {data.date}
             </div>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl uppercase">

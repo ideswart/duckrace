@@ -25,7 +25,7 @@ export default function TariffTable() {
                     classNames(
                       "h-[49px] w-[170px] bg-[#1d202a] font-secondary text-lg leading-5 text-gray-300",
                       !!selected &&
-                        "border-b-[3px] border-b-yellow-500 text-lg outline-none"
+                        "border-b-[3px] border-b-yellow-300 text-lg outline-none"
                     )
                   }
                 >
