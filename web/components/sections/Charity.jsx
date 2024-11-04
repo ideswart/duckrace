@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const charity = {
   title: "Hier doen we het voor",
   par1: "125 nieuwe kinderfietsen voor KDC De Walnoot",
@@ -28,6 +30,12 @@ export default function Charity() {
             <p className="text-sm md:text-md text-gray-950">{charity.par2}</p>
             <p className="text-sm md:text-md text-gray-950">{charity.par3}</p>
             <p className="text-sm md:text-md text-gray-950">{charity.par4}</p>
+            <Link href="https://gemiva.nl">
+              <img
+                className="w-40 h-10"
+                src="https://www.gemiva.nl/assets/dist/default/img/logo-ee28e04d6d.svg"
+              />
+            </Link>
           </div>
         </div>
       </div>

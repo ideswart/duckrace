@@ -38,14 +38,25 @@ const navigation = [
 
 export default function Footer() {
   return (
-    <footer className="bg-green-500">
+    <footer className="bg-orange-100">
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-row justify-between py-4 md:py-6 lg:py-8 px-4 text-black/80">
-          <p className="text-center text-xs leading-5 text-black/80">
-            &copy; 2024 Nederlandse Tafelronde 150. Alle rechten voorbehouden.
-          </p>
-
-          <div className="flex justify-center space-x-6 md:order-2">
+          <div className="flex gap-5 items-center">
+            <img className="size-20" src="./roundtable.png" />
+            <div className="flex flex-col text-left">
+              <h2 className="upper">Organisatie</h2>
+              <p className="text-xs leading-5 text-black/80">
+                Organisatie Ronde Tafel 150 Leiden
+              </p>
+              <p className="text-xs leading-5 text-black/80">
+                Stichting Servicefonds Tafelronde 150 Leiden
+              </p>
+              <address className="text-xs leading-5 text-black/80">
+                Frans van Mierisstraat 7<br /> 2316AK Leiden
+              </address>
+            </div>
+          </div>
+          <div className="flex items-center justify-center space-x-6 md:order-2">
             {navigation.map((item) => (
               <a
                 key={item.name}
