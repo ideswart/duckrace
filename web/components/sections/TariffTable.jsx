@@ -37,15 +37,15 @@ export default function TariffTable() {
               <Tab.Panel>
                 {/* Individual */}
                 <stripe-pricing-table
-                  pricing-table-id="prctbl_1PuCJdF1mJp5bVOXWpuFIuck"
-                  publishable-key="pk_test_51PNVP3F1mJp5bVOXIcTp15qjlaWNFS3mquTdWGrSUkFXzqckRj0pVAiDIW5BFaGx36y60CSc0UfyTujMUI3uFNXR00bsc8EW9u"
+                  pricing-table-id="prctbl_1QIBJMF1mJp5bVOX6m4aCrKN"
+                  publishable-key="pk_live_51PNVP3F1mJp5bVOXYp1MYkrbz9rqWoywHkCeCsCdWCB62dSmtJ10cupAtRZHQujzb84XiG7yZao3VnKQ9sxJHX0K00qh7hHyIA"
                 ></stripe-pricing-table>
               </Tab.Panel>
               <Tab.Panel>
                 {/* Company */}
                 <stripe-pricing-table
-                  pricing-table-id="prctbl_1PuChMF1mJp5bVOX0Uxvcsdx"
-                  publishable-key="pk_test_51PNVP3F1mJp5bVOXIcTp15qjlaWNFS3mquTdWGrSUkFXzqckRj0pVAiDIW5BFaGx36y60CSc0UfyTujMUI3uFNXR00bsc8EW9u"
+                  pricing-table-id="prctbl_1QIBKGF1mJp5bVOXiaC6fbiR"
+                  publishable-key="pk_live_51PNVP3F1mJp5bVOXYp1MYkrbz9rqWoywHkCeCsCdWCB62dSmtJ10cupAtRZHQujzb84XiG7yZao3VnKQ9sxJHX0K00qh7hHyIA"
                 ></stripe-pricing-table>
               </Tab.Panel>
             </Tab.Panels>
